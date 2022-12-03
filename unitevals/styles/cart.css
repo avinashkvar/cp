@@ -1,0 +1,25 @@
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.item{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+}
